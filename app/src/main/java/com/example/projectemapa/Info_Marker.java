@@ -24,8 +24,11 @@ import java.util.Map;
 public class Info_Marker extends AppCompatActivity {
 
     Intent intent;
+    Intent intent2;
     Bundle extra ;
     Boolean miValor;
+    Double lang;
+    Double longitud;
     EditText tvtitol,tvtipus,tvhora,tvparticipants,insert;
     Button crear;
     @Override
@@ -34,6 +37,8 @@ public class Info_Marker extends AppCompatActivity {
         intent = this.getIntent();
         extra = intent.getExtras();
         miValor= extra.getBoolean("valor");
+        lang= extra.getDouble("valor");
+        longitud= extra.getDouble("valor");
         setContentView(R.layout.activity_info_marker);
         tvtitol=findViewById(R.id.titolactiv);
         tvtipus=findViewById(R.id.tipus);
@@ -110,7 +115,7 @@ public class Info_Marker extends AppCompatActivity {
                 };
             RequestQueue requestQueue= Volley.newRequestQueue(Info_Marker.this);
             requestQueue.add(request);
-            finish();
+
         }
 
     }

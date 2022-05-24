@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrarActivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="REGISTRAR"
+            android:textSize="40dp"
+            ></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nom"
+            android:layout_gravity="center"></TextView>
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="Nom"
+            android:id="@+id/nom">
+        </EditText>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cognom"
+            android:layout_gravity="center"></TextView>
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="Cognom"
+            android:id="@+id/cognom">
+        </EditText>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nom Usuari"
+            android:layout_gravity="center"></TextView>
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="Nom Usuari"
+            android:id="@+id/nomusuari">
+        </EditText>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contrasenya"
+            android:layout_gravity="center"></TextView>
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="Contrasenya"
+            android:id="@+id/contrasenya">
+        </EditText>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Repetir Contrasenya"
+            android:layout_gravity="center"></TextView>
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="RepetirContrasenya">
+        </EditText>
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:text="REGISTRAR"
+            android:id="@+id/registrar"
+            ></Button>
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:text="TORNAR AL LOGIN"
+            android:id="@+id/login"
+            ></Button>
+    </LinearLayout>
+
+</LinearLayout>

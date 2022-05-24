@@ -8,28 +8,32 @@
     android:orientation="vertical">
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="120dp"
         android:orientation="horizontal"
         android:background="@color/teal_700">
 
-        <ImageButton
-            android:id="@+id/imageButton"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            app:srcCompat="@android:drawable/ic_menu_sort_by_size" />
+        <Button
+            android:id="@+id/menu"
+            android:layout_width="100px"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="Menu"/>
+        <LinearLayout
+            android:id="@+id/contenidor"
+            android:layout_marginTop="10px"
+            android:layout_marginLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"/>
         <TextView
             android:layout_marginTop="5dp"
-            android:layout_marginLeft="270dp"
+            android:layout_marginLeft="200dp"
             android:layout_width="100dp"
             android:layout_height="40dp"
             android:text="ALBERT SANCHEZ GUIU"/>
-        <ImageButton
-            android:id="@+id/imageButton2"
-            android:layout_marginLeft="5dp"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            />
+
     </LinearLayout>
+
 
     <fragment
         android:id="@+id/map"
@@ -37,5 +41,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".MapsActivity">
+
     </fragment>
 </LinearLayout>

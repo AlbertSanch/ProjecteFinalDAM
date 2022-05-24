@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PerfilActivity"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PERFIL"
+        android:gravity="center"
+        android:textSize="30dp"
+        ></TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:text="Apodo"></TextView>
+        <EditText
+            android:id="@+id/titolactiv"
+            android:layout_width="200dp"
+            android:layout_height="40dp"></EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:text="Avatar"></TextView>
+        <EditText
+            android:layout_marginTop="20px"
+            android:id="@+id/tipus"
+            android:layout_width="200dp"
+            android:layout_height="50dp"></EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+        <TextView
+
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:text="Estat"></TextView>
+        <EditText
+            android:layout_marginTop="20px"
+            android:id="@+id/participants"
+            android:layout_width="200dp"
+            android:layout_height="50dp"></EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:text="Modo fantasma"></TextView>
+        <Switch
+            android:id="@+id/hora"
+            android:layout_marginTop="20px"
+            android:layout_width="200dp"
+            android:layout_height="50dp"></Switch>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/crear"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="ACTUALITZAR"
+            android:layout_marginRight="20dp"></Button>
+
+        <Button
+            android:id="@+id/enrere"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="ENRERE"
+            android:onClick="tornarenrere">
+        </Button>
+    </LinearLayout>
+</LinearLayout>

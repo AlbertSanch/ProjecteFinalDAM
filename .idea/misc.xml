@@ -3,10 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/ProjecteMAPA/app/src/main/res/layout/activity_agregar.xml" value="0.1" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/ProjecteMAPA/app/src/main/res/layout/activity_agregar_amics.xml" value="0.209375" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/ProjecteMAPA/app/src/main/res/layout/activity_configuracio.xml" value="0.209375" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/ProjecteMAPA/app/src/main/res/layout/activity_eliminar.xml" value="0.1" />
         <entry key="..\:/Users/usuario/AndroidStudioProjects/ProjecteMAPA/app/src/main/res/layout/activity_info_marker.xml" value="0.18" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/ProjecteMAPA/app/src/main/res/layout/activity_login.xml" value="0.1953125" />
         <entry key="..\:/Users/usuario/AndroidStudioProjects/ProjecteMAPA/app/src/main/res/layout/activity_main.xml" value="0.13949275362318841" />
         <entry key="..\:/Users/usuario/AndroidStudioProjects/ProjecteMAPA/app/src/main/res/layout/activity_maps.xml" value="0.17" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/ProjecteMAPA/app/src/main/res/layout/activity_perfil.xml" value="0.209375" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/ProjecteMAPA/app/src/main/res/layout/activity_registrar.xml" value="0.209375" />
         <entry key="..\:/Users/usuario/AndroidStudioProjects/ProjecteMAPA/app/src/main/res/layout/fragment_activitat_.xml" value="0.1" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/ProjecteMAPA/app/src/main/res/layout/fragment_opcions_menu.xml" value="0.209375" />
       </map>
     </option>
   </component>
